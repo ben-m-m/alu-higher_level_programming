@@ -7,4 +7,3 @@ def print_matrix_integer(matrix=[[]]):
         for num in row:
             formatted.append("{:d}".format(num))
         print(" ".join(formatted))
-
